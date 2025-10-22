@@ -1,0 +1,222 @@
+[
+  {
+    "text": "How do I reset my account password?",
+    "label": "question"
+  },
+  {
+    "text": "What are your business hours?",
+    "label": "question"
+  },
+  {
+    "text": "Can someone help me with this error?",
+    "label": "question"
+  },
+  {
+    "text": "When will my order arrive?",
+    "label": "question"
+  },
+  {
+    "text": "Where can I find the tracking information?",
+    "label": "question"
+  },
+  {
+    "text": "Is there a discount for students?",
+    "label": "question"
+  },
+  {
+    "text": "Why was my payment declined?",
+    "label": "question"
+  },
+  {
+    "text": "Do you ship internationally?",
+    "label": "question"
+  },
+  {
+    "text": "How much does shipping cost?",
+    "label": "question"
+  },
+  {
+    "text": "Can I cancel my subscription?",
+    "label": "question"
+  },
+  {
+    "text": "Which plan is best for small business?",
+    "label": "question"
+  },
+  {
+    "text": "What's included in the premium version?",
+    "label": "question"
+  },
+  {
+    "text": "How long does processing take?",
+    "label": "question"
+  },
+  {
+    "text": "Are refunds available?",
+    "label": "question"
+  },
+  {
+    "text": "Who should I contact for support?",
+    "label": "question"
+  },
+  {
+    "text": "Really enjoying the new features!",
+    "label": "comment"
+  },
+  {
+    "text": "The update made things much smoother.",
+    "label": "comment"
+  },
+  {
+    "text": "Just wanted to share my positive experience.",
+    "label": "comment"
+  },
+  {
+    "text": "I appreciate the quick response time.",
+    "label": "comment"
+  },
+  {
+    "text": "The interface is very user-friendly.",
+    "label": "comment"
+  },
+  {
+    "text": "Great service overall.",
+    "label": "comment"
+  },
+  {
+    "text": "This has been helpful for my work.",
+    "label": "comment"
+  },
+  {
+    "text": "The documentation is clear and detailed.",
+    "label": "comment"
+  },
+  {
+    "text": "I like how easy it is to navigate.",
+    "label": "comment"
+  },
+  {
+    "text": "The customer support team was very helpful.",
+    "label": "comment"
+  },
+  {
+    "text": "Performance has improved significantly.",
+    "label": "comment"
+  },
+  {
+    "text": "Nice job on the recent improvements.",
+    "label": "comment"
+  },
+  {
+    "text": "I've been using this for months now.",
+    "label": "comment"
+  },
+  {
+    "text": "The design looks professional.",
+    "label": "comment"
+  },
+  {
+    "text": "This feature saves me a lot of time.",
+    "label": "comment"
+  },
+  {
+    "text": "This is completely broken and unusable.",
+    "label": "complaint"
+  },
+  {
+    "text": "Very disappointed with the quality.",
+    "label": "complaint"
+  },
+  {
+    "text": "The app crashes constantly.",
+    "label": "complaint"
+  },
+  {
+    "text": "I've been waiting for support for days.",
+    "label": "complaint"
+  },
+  {
+    "text": "This is not what was advertised.",
+    "label": "complaint"
+  },
+  {
+    "text": "Extremely frustrated with this experience.",
+    "label": "complaint"
+  },
+  {
+    "text": "The service is terrible and unreliable.",
+    "label": "complaint"
+  },
+  {
+    "text": "I want a refund immediately.",
+    "label": "complaint"
+  },
+  {
+    "text": "This never works properly.",
+    "label": "complaint"
+  },
+  {
+    "text": "Worst customer service I've experienced.",
+    "label": "complaint"
+  },
+  {
+    "text": "The website is always down.",
+    "label": "complaint"
+  },
+  {
+    "text": "I'm very unhappy with this purchase.",
+    "label": "complaint"
+  },
+  {
+    "text": "Nothing works as it should.",
+    "label": "complaint"
+  },
+  {
+    "text": "This is a waste of money.",
+    "label": "complaint"
+  },
+  {
+    "text": "The quality has gotten much worse.",
+    "label": "complaint"
+  },
+  {
+    "text": "Why is this so terrible?",
+    "label": "complaint"
+  },
+  {
+    "text": "Can you please fix this bug?",
+    "label": "question"
+  },
+  {
+    "text": "I'm not sure if this is working right.",
+    "label": "comment"
+  },
+  {
+    "text": "How do I stop these annoying notifications?",
+    "label": "question"
+  },
+  {
+    "text": "Just noticed the new update.",
+    "label": "comment"
+  },
+  {
+    "text": "What happened to the old version?",
+    "label": "question"
+  },
+  {
+    "text": "This could be better.",
+    "label": "comment"
+  },
+  {
+    "text": "Is anyone else having this problem?",
+    "label": "question"
+  },
+  {
+    "text": "I think there might be a bug.",
+    "label": "comment"
+  },
+  {
+    "text": "Why did you remove that feature?",
+    "label": "question"
+  }
+]

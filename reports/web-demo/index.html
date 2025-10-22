@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis - Intent Triage</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Main container for the entire page -->
+    <div class="container">
+        <!-- Header section with title and description -->
+        <header>
+            <h1>📊 Intent Triage Tool</h1>
+            <p class="subtitle">Classify messages as Question, Comment, or Complaint</p>
+        </header>
+
+        <main>
+            <!-- Input section for user to enter text -->
+            <div class="input-section">
+                <label for="message-input">Enter your message:</label>
+                <textarea 
+                    id="message-input" 
+                    placeholder="Type or paste a message here..."
+                    rows="5"
+                ></textarea>
+                <button id="classify-btn" onclick="classifyMessage()">Classify Message</button>
+            </div>
+
+            <!-- Results section (hidden until classification is performed) -->
+            <div class="result-section" id="result-section" style="display: none;">
+                <h2>Classification Result</h2>
+                <div class="result-card">
+                    <!-- Classification label (question/comment/complaint) -->
+                    <div class="result-item">
+                        <span class="label">Label:</span>
+                        <span id="result-label" class="value label-badge"></span>
+                    </div>
+                    
+                    <!-- Confidence score with visual progress bar -->
+                    <div class="result-item">
+                        <span class="label">Confidence:</span>
+                        <span id="result-confidence" class="value"></span>
+                        <div class="confidence-bar">
+                            <div id="confidence-fill" class="confidence-fill"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Explanation for the classification -->
+                    <div class="result-item">
+                        <span class="label">Reason:</span>
+                        <span id="result-reason" class="value reason-text"></span>
+                    </div>
+                    
+                    <!-- Escalation warning (shown only if confidence is low) -->
+                    <div class="result-item" id="escalate-section" style="display: none;">
+                        <span class="label">⚠️ Status:</span>
+                        <span class="value escalate-badge">Needs Human Review</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Example messages section for quick testing -->
+            <div class="examples-section">
+                <h3>Try these examples:</h3>
+                <div class="examples-grid">
+                    <button class="example-btn" onclick="loadExample('How do I reset my password?')">
+                        Question Example
+                    </button>
+                    <button class="example-btn" onclick="loadExample('I really enjoyed the new feature you added!')">
+                        Comment Example
+                    </button>
+                    <button class="example-btn" onclick="loadExample('This service is terrible and never works properly.')">
+                        Complaint Example
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer with project information -->
+        <footer>
+            <p>Practice Project - Sentiment Analysis v1.0</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript for interactive functionality -->
+    <script src="js/app.js"></script>
+</body>
+</html>
