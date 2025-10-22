@@ -1,6 +1,6 @@
 # Sentiment Analysis - Intent Triage
 
-A lightweight web tool that classifies text messages as **Question**, **Comment**, or **Complaint**.
+A lightweight web interface that classifies text messages as **Question**, **Comment**, or **Complaint** using AI and a rule-based classification system.
 
 ##  What It Does
 
@@ -153,7 +153,7 @@ Edit `.env` file to customize:
 - `HOST`: Server host (default: 0.0.0.0)
 - `PORT`: Server port (default: 8000)
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 - **Backend:** FastAPI, Python 3.8+
 - **AI/ML:** Hugging Face Transformers (DistilBERT), PyTorch
